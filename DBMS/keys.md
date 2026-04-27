@@ -16,7 +16,6 @@ Imagine a table of users:
 If we want to uniquely identify a user, using `name` is not enough. We need something **unique and reliable**.
 
 ---
-
 ##  Mental Model
 
 Think of a key like:
@@ -34,20 +33,16 @@ Without keys:
 ##  Types of Keys in DBMS
 
 ### 1. Primary Key
-
 ### 2. Candidate Key
-
 ### 3. Super Key
-
 ### 4. Alternate Key
 
 ### 5. Foreign Key
-
 ### 6. Composite Key
 
 ---
 
-## 🔹 1. Primary Key
+##  1. Primary Key
 
 ### Definition
 
@@ -61,7 +56,7 @@ A **Primary Key** uniquely identifies each record in a table.
 
 ### Example
 
-// SQL representation (conceptual, written in JS string)  
+// SQL representation 
 const query = `  
 CREATE TABLE Users (  
   id INT PRIMARY KEY,  
@@ -90,7 +85,8 @@ All possible attributes that can uniquely identify records.
 
 - `id`, `email`, and `phone` can all uniquely identify a row.
 
- These are **candidate keys**
+ These are **candidate key**
+if you pick id as primary key then all others are alternative key
 
 ---
 
@@ -99,7 +95,6 @@ All possible attributes that can uniquely identify records.
 ### Definition
 
 A **super key** is any combination of attributes that uniquely identifies a row.
-
 ### Example
 
 // Super keys:  
@@ -112,29 +107,11 @@ A **super key** is any combination of attributes that uniquely identifies a row.
 
 ---
 
-##  4. Alternate Key
-
-### Definition
-
-Candidate keys that are **NOT chosen as primary key**
-
-### Example
-
-If:
-
-- `id` is primary key
-- `email` is also unique
-
- `email` becomes an **alternate key**
-
----
-
 ##  5. Foreign Key
 
 ### Definition
 
 A **foreign key** is used to link one table to another.
-
 ### Example
 
 const query = `  
@@ -146,13 +123,11 @@ CREATE TABLE Orders (
 `;
 
  `user_id` refers to `Users.id`
-
 ### Mental Model
 
 > Foreign Key = "Reference to another table's identity"
 
 ---
-
 ##  6. Composite Key
 
 ### Definition
@@ -278,18 +253,6 @@ INSERT INTO Users VALUES (999, 'Test');
 
 ---
 
-##  Internal Behavior (Advanced Insight)
-
-- DBMS creates **indexes automatically** for primary keys
-- This improves:
-    - Search speed
-    - Join performance
-- Foreign keys enforce:
-    - **Referential integrity**
-    - Prevent deletion of referenced data
-
----
-
 ##  Comparison Table
 
 | Key Type      | Unique | NULL Allowed | Purpose           |
@@ -318,17 +281,6 @@ WHERE user_id = ${userId}
  Uses **foreign key relationship**
 
 ---
-
-### 2. Frontend (React Key vs DB Key Concept)
-
-users.map(user => (  
-  <div key={user.id}>{user.name}</div>  
-));
-
- `user.id` comes from **DB primary key**
-
----
-
 ##  Key Points
 
 - Keys ensure **uniqueness and integrity**
