@@ -164,7 +164,7 @@ const greet = () => {
 ### Behavior
 - Does not have its own `this`  
 
-→ [[Arrow Functions]]
+→ [[Arrow functions]]
 
 ---
 
@@ -199,7 +199,7 @@ function greet(name, callback) {
 ### Behavior
 - Executed after main function completes  
 
-→ [[Callback Functions]]
+→ [[CallBack Functions]]
 
 ---
 

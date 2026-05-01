@@ -106,8 +106,8 @@
 
 ## 5. Functions
 - [[Functions Basics]]
-- [[Arrow Functions]]
-- [[Callback Functions]]
+- [[Arrow functions]]
+- [[CallBack Functions]]
 - [[Constructor Functions]]
 - [[Call Apply Bind]]
 
