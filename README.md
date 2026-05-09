@@ -22,23 +22,11 @@ This repository is a **complete backend developer interview preparation guide**.
 │   ├── API_Development
 │   │   └── Topic Name
 │   ├── Authentication_Authorization
-│   ├── Data-Structure
+│   ├── OOP
 │   ├── DBMS
 │   │   ├── NoSQL
 │   │   └── SQL
-│   └── OOP
-│       ├── Home Page of OOP
-│       ├── Classes & Objects
-│       ├── Four Pillars
-│       ├── Constructor and Destructor
-│       ├── Access Modifier
-│       ├── Function Overloading & Overriding
-│       ├── Friend Function
-│       ├── Loops in C++
-│       ├── Virtual Function & Static Class
-│       ├── Exception Handling
-│       ├── this in C++
-│       └── Pointers in C++
+│   └── Data-Structure
 │
 ├── Languages
 │   ├── javascript
