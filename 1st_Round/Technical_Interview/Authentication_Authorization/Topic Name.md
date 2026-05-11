@@ -24,4 +24,5 @@
     - Refresh Tokens and Token Expiry Management
         
     - Preventing Unauthorized Access (CSRF, XSS, Replay Attacks)
-        
+
+4. Https GET, POST, PUT, Delete

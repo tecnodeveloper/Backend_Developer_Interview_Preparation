@@ -1,120 +1,120 @@
 ## Introduction to Programming
 
-1. Apna short introduction dein aur backend development mein interest kaise aya?
+1. Apna introduction short mein dein aur backend development mein interest kaise aya?
     
-2. Aapko Node.js backend development mein sabse zyada kya pasand hai?
+2. Nexl Tech internship mein aapka main role kya tha?
     
-3. Future mein aap backend developer ke taur par kis type ke projects par kaam karna chahte hain?
+3. JavaScript aur Node.js mein kya difference hai?
+    
+4. Backend developer ki daily responsibilities kya hoti hain?
+    
+5. Agar API slow response de rahi ho to debugging kaise start karenge?
     
 
-## OOP & Core Programming Concepts
+## OOP Concepts
 
-4. OOP kya hoti hai aur backend development mein iski importance kya hai?
+6. OOP kya hoti hai aur backend mein kyun important hai?
     
-5. Encapsulation ko simple example ke sath explain karein.
+7. Class aur object mein kya difference hai?
     
-6. Inheritance aur composition mein kya difference hai?
+8. Encapsulation ko Node.js backend mein kaise use kiya?
     
-7. Polymorphism Node.js projects mein kaise use hoti hai?
+9. Inheritance ka practical example apne project se dein.
     
-8. Abstraction ka real backend example dein.
+10. Polymorphism backend applications mein kahan useful hoti hai?
     
-9. Class aur object mein kya difference hai?
+11. Abstraction ka use APIs mein kaise hota hai?
     
-10. JavaScript prototype inheritance kya hoti hai?
+12. Constructor function aur ES6 classes mein difference?
     
-11. ES6 classes aur constructor functions mein difference?
+13. Static methods kab use karte hain?
     
-12. Async programming kya hoti hai aur backend mein kyun important hai?
+14. Composition vs inheritance kis situation mein prefer karenge?
     
-13. Callback hell kya hota hai aur usko avoid kaise karte hain?
+15. SOLID principles kya hain?
     
-14. Promise aur async/await mein difference?
+16. Single Responsibility Principle ko Express project mein kaise apply karenge?
     
-15. Event loop Node.js mein kaise kaam karta hai?
+17. Dependency Injection kya hoti hai?
     
-16. JavaScript single-threaded hone ke bawajood multiple requests kaise handle karta hai?
+18. Async programming kya hai aur callback hell kya hota hai?
     
-17. == aur === mein kya difference hai?
+	1. Promise aur async/await mein difference?
     
-18. let, var aur const mein difference?
+20. Event loop Node.js mein kaise kaam karta hai?
     
-19. Shallow copy aur deep copy kya hoti hai?
+21. Threading model Node.js ka explain karein.
     
-20. Closures kya hoti hain aur backend mein kaha useful hoti hain?
+22. Middleware pattern kya hota hai?
     
-21. Memory leak Node.js app mein kaise hoti hai?
+23. Error handling centralized kaise karte hain?
     
-22. SOLID principles mein se koi 3 explain karein.
+24. Memory leak Node.js application mein kaise identify karenge?
     
-23. REST API design karte waqt clean code practices kya follow karte hain?
+25. JWT authentication ka flow explain karein.
     
-24. Error handling ka best approach backend applications mein kya hai?
+26. Session-based auth aur JWT mein difference?
     
-25. Backend app secure coding ke liye kin cheezon ka khayal rakhte hain?
+27. Password hashing ke liye bcrypt kyun use karte hain?
+    
+28. Input validation backend mein kyun important hai?
+    
+29. Rate limiting kya hoti hai?
+    
+30. REST API design karte waqt best practices kya hoti hain?
+    
+31. HTTP status codes 200, 201, 400, 401, 403, 500 kab use hote hain?
+    
+32. SQL aur NoSQL databases mein difference?
+    
+33. MongoDB indexing kya hoti hai aur performance kaise improve karti hai?
+    
+34. Aggregation pipeline MongoDB mein kab use ki?
+    
+35. Transactions MongoDB mein kaise work karti hain?
+    
+36. Redis ka use backend mein kis liye hota hai?
     
 
 ## Frameworks & Backend Development
 
-26. Express.js middleware kya hota hai?
+37. Express.js middleware execution order kaise kaam karta hai?
     
-27. JWT authentication ka flow explain karein.
+38. MVC architecture kya hota hai?
     
-28. Session-based auth aur JWT auth mein kya difference hai?
+39. API versioning kaise implement karenge?
     
-29. Google OAuth integration backend mein kaise implement ki?
+40. File upload handling Node.js mein kaise karte hain?
     
-30. MongoDB aur SQL databases mein kya difference hai?
+41. WebSockets aur REST APIs mein kya difference hai?
     
-31. Mongoose schema validation kaise kaam karti hai?
+42. Google OAuth integration ka flow explain karein.
     
-32. Aggregation pipeline MongoDB mein kab use karte hain?
+43. CORS issue kya hota hai aur kaise solve karte hain?
     
-33. Indexing database performance improve kaise karti hai?
+44. Environment variables ko securely manage kaise karte hain?
     
-34. API rate limiting kya hoti hai?
+45. Docker ka backend deployment mein kya role hai?
     
-35. Backend mein caching ka concept explain karein.
+46. CI/CD pipeline kya hoti hai?
     
-36. WebSockets aur HTTP requests mein difference?
+47. Backend application ko scalable kaise banayenge?
     
-37. Microservices aur monolithic architecture mein kya difference hai?
+48. Logging aur monitoring production backend mein kaise implement karte hain?
     
-38. API response slow ho to debugging kaise karenge?
-    
-39. Node.js app ko scalable banane ke liye kya strategies use karenge?
-    
-40. Input validation backend mein kyun important hai?
-    
-41. File uploads securely handle kaise karte hain?
-    
-42. Docker ka basic purpose backend development mein kya hai?
+49. Payment gateway integration mein security concerns kya hoti hain?
     
 
 ## Project Related Questions
 
-43. EV Charging Station project mein backend architecture kaise design ki thi?
+50. EV Charging Station project mein slot booking conflicts ko kaise handle kiya?
     
-44. Charging slot booking system mein double booking avoid kaise ki?
+51. Charging station per-unit pricing dynamically update karne ka backend logic kya tha?
+
+52. Admin panel mein transaction monitoring kaise implement ki?
     
-45. Transaction monitoring feature implement karte waqt kya challenges aye?
+53. PriceWatch Dog project mein web scraping restrictions ko kaise handle kiya?
     
-46. Admin panel mein role-based access control kaise implement kiya?
+54. Multi-Turn AI Chatbot mein conversation context maintain kaise kar rahe hain?
     
-47. Reviews aur ratings system ko abuse se kaise protect karenge?
-    
-48. Per unit charging price dynamically update karna ho to backend kaise handle karega?
-    
-49. PriceWatch Dog project mein web scraping tools kaise kaam karte thay?
-    
-50. AI agents ko ecommerce websites detect/block kar dein to alternative solution kya hoga?
-    
-51. Price change alerts realtime users tak kaise pohanchate thay?
-    
-52. Multi-turn AI chatbot mein context memory maintain kaise ki?
-    
-53. LLaMA 3 local deployment mein kya technical issues face kiye?
-    
-54. Query classification backend mein kaise implement ki?
-    
-55. Agar hum aapko hire karein to aapki salary expectation kya hai?
+55. Aapki expected salary aur preferred backend role kya hai?
